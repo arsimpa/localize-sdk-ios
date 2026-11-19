@@ -10,7 +10,7 @@ This is the Swift SDK for iOS and macOS. It falls back to your app's `.strings` 
 
 Also available for [Android](https://github.com/arsalankhan-glitch/localize-sdk-android) · [Flutter](https://github.com/arsalankhan-glitch/localize-sdk-flutter) · [React Native](https://github.com/arsalankhan-glitch/localize-sdk-react-native).
 
-To get started, sign up [here](https://localiq.yaxbi.com/signup).
+To get started, sign up [here](https://glotra.app/signup).
 
 ## 📱 Example app
 

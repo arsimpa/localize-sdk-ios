@@ -14,7 +14,7 @@ final class LocalizeSDKTests: XCTestCase {
 
     func testDefaultBaseUrlIsProduction() {
         let config = LocalizeConfig(apiKey: "test")
-        XCTAssertEqual(config.baseUrl, "https://localize-api.adres.ae")
+        XCTAssertEqual(config.baseUrl, "https://api.glotra.app")
     }
 
     func testConfigureAndGetString() async {
