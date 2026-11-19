@@ -1,14 +1,14 @@
-# Localiq iOS SDK
+# Glotra iOS SDK
 
-[![Version](https://img.shields.io/github/v/tag/arsalankhan-glitch/localize-sdk-ios?sort=semver&label=version)](https://github.com/arsalankhan-glitch/localize-sdk-ios/tags) [![License](https://img.shields.io/github/license/arsalankhan-glitch/localize-sdk-ios)](LICENSE) ![Platform](https://img.shields.io/badge/platform-iOS%2013%2B%20%7C%20macOS%2010.15%2B-blue.svg) ![Swift 5.9](https://img.shields.io/badge/Swift-5.9%2B-orange.svg) [![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
+[![Version](https://img.shields.io/github/v/tag/arsimpa/localize-sdk-ios?sort=semver&label=version)](https://github.com/arsimpa/localize-sdk-ios/tags) [![License](https://img.shields.io/github/license/arsimpa/localize-sdk-ios)](LICENSE) ![Platform](https://img.shields.io/badge/platform-iOS%2013%2B%20%7C%20macOS%2010.15%2B-blue.svg) ![Swift 5.9](https://img.shields.io/badge/Swift-5.9%2B-orange.svg) [![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
 ## 👋 Introduction
 
-Localiq lets your team manage your app's text and translations in one place and update them without shipping a new release. The SDK downloads the latest translations at runtime, caches them on the device, and falls back to the strings bundled in your app when it's offline.
+Glotra lets your team manage your app's text and translations in one place and update them without shipping a new release. The SDK downloads the latest translations at runtime, caches them on the device, and falls back to the strings bundled in your app when it's offline.
 
 This is the Swift SDK for iOS and macOS. It falls back to your app's `.strings` and `.stringsdict` files.
 
-Also available for [Android](https://github.com/arsalankhan-glitch/localize-sdk-android) · [Flutter](https://github.com/arsalankhan-glitch/localize-sdk-flutter) · [React Native](https://github.com/arsalankhan-glitch/localize-sdk-react-native).
+Also available for [Android](https://github.com/arsimpa/localize-sdk-android) · [Flutter](https://github.com/arsimpa/localize-sdk-flutter) · [React Native](https://github.com/arsimpa/localize-sdk-react-native).
 
 To get started, sign up [here](https://glotra.app/signup).
 
@@ -26,13 +26,13 @@ See [`Example/`](Example/). Set your API key as the `LOCALIZE_EXAMPLE_API_KEY` e
 Add the package via Swift Package Manager in Xcode:
 
 1. **File → Add Package Dependencies…**
-2. Enter `https://github.com/arsalankhan-glitch/localize-sdk-ios` and select the `LocalizeSDK` library.
+2. Enter `https://github.com/arsimpa/localize-sdk-ios` and select the `LocalizeSDK` library.
 
 Or add it to `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/arsalankhan-glitch/localize-sdk-ios", from: "0.1.0")
+    .package(url: "https://github.com/arsimpa/localize-sdk-ios", from: "0.1.2")
 ],
 targets: [
     .target(name: "YourApp", dependencies: ["LocalizeSDK"])
