@@ -1,6 +1,6 @@
-# Localiq SDK Example App
+# Glotra SDK Example App
 
-A sample iOS app to exercise the Localiq SDK and verify all scenarios.
+A sample iOS app to exercise the Glotra SDK and verify all scenarios.
 
 ## Open & Run
 
